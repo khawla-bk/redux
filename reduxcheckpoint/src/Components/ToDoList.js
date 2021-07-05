@@ -1,6 +1,6 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import TaskCard from './TaskCard'
+import TaskCard from './Card'
 
 function filterTasks(todos, filter) {
 
