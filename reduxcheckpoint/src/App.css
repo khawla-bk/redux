@@ -1,39 +1,55 @@
-.App {
-  text-align: center;
+.App{  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.isDone {
+  text-decoration: line-through;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.image {display: flex;
+  width: 361px;
+  justify-content: space-between;
 }
+.list {display:flex;
+flex-direction: column;
+  width: 1100px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+  font-size:30px;
+  letter-spacing:3px;
+  line-height: 15px;
 
-.App-header {
-  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+  border-bottom: solid rgba(0, 0, 0, 0.432);}
+  
+  .todoInput{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
+  justify-content: space-between;
+  width: 1100px;
+  margin: auto;
+  padding: 20px;
+  
   }
-  50% {
-    transform: translateY(10px);
+  .input{
+      width: 1000px;
+  margin-left: -21px;
+  padding: 20px;
+  letter-spacing:3px;
+      line-height: 15px;
+      font-size:20px;
+  
   }
-  100% {
-    transform: translateY(0px);
-  }
-}
+  .filter {    display: flex;
+    margin-left: 450px;
+    width: 19%;
+    align-items: center;
+    justify-content: space-evenly;}
+  .button {width:100px}
+  .modal-content{width:fit-content}
+  .modal-dialog{width: 10%}
+  .card{
+    display: flex;
+    justify-content: space-between;
+   
+    justify-items: center;
+   
+    padding: 20px;}
