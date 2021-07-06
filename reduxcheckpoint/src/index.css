@@ -1,0 +1,19 @@
+h1 {
+  color: #30506a;
+  font-size: 40px;
+  text-align: center;
+  font-family: ubuntu, sans-serif;
+}
+input {
+  height: 30px;
+  border: 1px solid #30506a;
+  border-radius: 6px;
+}
+.btn {
+  width: 80px;
+  height: 30px;
+  background-color: #30506a;
+  color: white;
+  border: 1px solid #30506a;
+  border-radius: 6px;
+}
