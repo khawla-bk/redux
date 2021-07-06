@@ -1,7 +1,7 @@
 import React from "react";
 import PropType from "prop-types";
 import { connect } from "react-redux";
-import { filter } from "../actions/todo.actions";
+import { filter } from "../actions/todoActions";
 
 const Link = ({ active, children, onClick }) => {
   return (
